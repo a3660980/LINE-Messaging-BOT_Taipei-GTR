@@ -16,9 +16,9 @@ rule.second = 00;
 var db = require("./db.js");
 var now = require("./now.js");
 var client = LineBot.client({
-  channelID: '1464358964',
-  channelSecret: '0b9da8b0037725b17bf846accf0fb2a7',
-  channelMID: 'u698582ebfdc688dfbfac236951236ea3'
+  channelID: '',
+  channelSecret: '',
+  channelMID: ''
 });
 
 schedule.scheduleJob(restart, function(){
